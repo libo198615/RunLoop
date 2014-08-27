@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84B40B69-D269-4D54-8B54-673814CA83A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RunLoop</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>94CE2202-3034-4D95-A24A-F1F9F7D8D8F1</key>
+		<string>https://github.com/libo198615/RunLoop.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RunLoop/RunLoop.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>94CE2202-3034-4D95-A24A-F1F9F7D8D8F1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/libo198615/RunLoop.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>94CE2202-3034-4D95-A24A-F1F9F7D8D8F1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>94CE2202-3034-4D95-A24A-F1F9F7D8D8F1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RunLoop</string>
+		</dict>
+	</array>
+</dict>
+</plist>
