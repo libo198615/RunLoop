@@ -8,6 +8,7 @@
 
 #import "NQViewController.h"
 #import "RunLoop.h"
+#import "LBThread.h"
 
 @interface NQViewController ()
 @property (nonatomic, strong) NSRunLoop *currentLoop;
@@ -19,13 +20,20 @@
 {
     [super viewDidLoad];
 
-    RunLoop *runLoop = [[RunLoop alloc] init];
-    [runLoop action1];
+//    RunLoop *runLoop = [[RunLoop alloc] init];
+//    [runLoop action1];
+    
+//    [self click];
+    
+    [[LBThread manager] start];
 }
+
 
 //新线程
 - (void)click{
-    NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(playerThread) object:nil];
+    NSThread *thread = [[NSThread alloc] initWithTarget:self
+                                               selector:@selector(playerThread)
+                                                 object:nil];
     [thread start];
 }
 //nstimer 加到新线程的runloop中
@@ -36,14 +44,17 @@
 }
 
 - (void)initPlayer{
-    [NSTimer scheduledTimerWithTimeInterval:1
+    self.countTimer = [NSTimer scheduledTimerWithTimeInterval:1
                                      target:self
-                                   selector:@selector(checkState:) userInfo:nil repeats:YES];
+                                   selector:@selector(checkState:)
+                                   userInfo:nil
+                                    repeats:YES];
 }
 
 - (void)checkState:(NSTimer *)timer{
     NSLog(@"runloop");
 //    CFRunLoopStop((__bridge CFRunLoopRef)(_currentLoop));
+//    [self.countTimer invalidate];
 }
 
 @end

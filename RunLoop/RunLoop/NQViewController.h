@@ -10,4 +10,6 @@
 
 @interface NQViewController : UIViewController
 
+@property (nonatomic, strong) NSTimer *countTimer;
+
 @end

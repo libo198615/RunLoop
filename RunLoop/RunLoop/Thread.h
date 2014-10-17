@@ -1,16 +1,13 @@
 //
-//  RunLoop.h
+//  Thread.h
 //  RunLoop
 //
-//  Created by libo on 14-8-26.
+//  Created by libo on 14-8-27.
 //  Copyright (c) 2014年 NQ. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface RunLoop : NSObject
-
-
-- (void)manager;
+@interface Thread : NSObject
 
 @end

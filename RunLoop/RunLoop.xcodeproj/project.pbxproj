@@ -24,6 +24,9 @@
 		75295DAD19AC6CC300DE56FC /* RunLoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75295DAC19AC6CC300DE56FC /* RunLoopTests.m */; };
 		75295DB819AC6EC300DE56FC /* RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 75295DB719AC6EC300DE56FC /* RunLoop.m */; };
 		75295DBB19AC770900DE56FC /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 75295DBA19AC770900DE56FC /* GCD.m */; };
+		7581E2AE19ECD0BB00A3FE03 /* LBThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 7581E2AD19ECD0BB00A3FE03 /* LBThread.m */; };
+		75DE454419ADBB4D00360B3B /* Thread.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DE454319ADBB4D00360B3B /* Thread.m */; };
+		75DE454719ADBFCA00360B3B /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DE454619ADBFCA00360B3B /* Operation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,12 @@
 		75295DB719AC6EC300DE56FC /* RunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoop.m; sourceTree = "<group>"; };
 		75295DB919AC770900DE56FC /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
 		75295DBA19AC770900DE56FC /* GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
+		7581E2AC19ECD0BB00A3FE03 /* LBThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBThread.h; sourceTree = "<group>"; };
+		7581E2AD19ECD0BB00A3FE03 /* LBThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBThread.m; sourceTree = "<group>"; };
+		75DE454219ADBB4D00360B3B /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		75DE454319ADBB4D00360B3B /* Thread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thread.m; sourceTree = "<group>"; };
+		75DE454519ADBFCA00360B3B /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		75DE454619ADBFCA00360B3B /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +139,12 @@
 				75295DB719AC6EC300DE56FC /* RunLoop.m */,
 				75295DB919AC770900DE56FC /* GCD.h */,
 				75295DBA19AC770900DE56FC /* GCD.m */,
+				75DE454219ADBB4D00360B3B /* Thread.h */,
+				75DE454319ADBB4D00360B3B /* Thread.m */,
+				75DE454519ADBFCA00360B3B /* Operation.h */,
+				75DE454619ADBFCA00360B3B /* Operation.m */,
+				7581E2AC19ECD0BB00A3FE03 /* LBThread.h */,
+				7581E2AD19ECD0BB00A3FE03 /* LBThread.m */,
 				75295D9919AC6CC300DE56FC /* Images.xcassets */,
 				75295D8519AC6CC300DE56FC /* Supporting Files */,
 			);
@@ -267,8 +282,11 @@
 				75295DBB19AC770900DE56FC /* GCD.m in Sources */,
 				75295D9819AC6CC300DE56FC /* NQViewController.m in Sources */,
 				75295D8B19AC6CC300DE56FC /* main.m in Sources */,
+				7581E2AE19ECD0BB00A3FE03 /* LBThread.m in Sources */,
 				75295D8F19AC6CC300DE56FC /* NQAppDelegate.m in Sources */,
 				75295DB819AC6EC300DE56FC /* RunLoop.m in Sources */,
+				75DE454719ADBFCA00360B3B /* Operation.m in Sources */,
+				75DE454419ADBB4D00360B3B /* Thread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +501,7 @@
 				75295DB219AC6CC300DE56FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75295DB319AC6CC300DE56FC /* Build configuration list for PBXNativeTarget "RunLoopTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +510,7 @@
 				75295DB519AC6CC300DE56FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
